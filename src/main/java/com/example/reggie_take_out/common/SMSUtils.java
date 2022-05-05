@@ -33,9 +33,9 @@ public class SMSUtils {
     public static void sendMsg(String code) throws Exception {
         Config config = new Config()
                 // 您的AccessKey ID
-                .setAccessKeyId("LTAI5tH2B3LQhcsbBVyn5xpL")
+                .setAccessKeyId("")
                 // 您的AccessKey Secret
-                .setAccessKeySecret("O8EoEFZ1wyNT6XJLd4SWCIE26cBtSm");
+                .setAccessKeySecret("");
         // 访问的域名
         config.endpoint = "dysmsapi.aliyuncs.com";
         com.aliyun.dysmsapi20170525.Client client=new com.aliyun.dysmsapi20170525.Client(config);
